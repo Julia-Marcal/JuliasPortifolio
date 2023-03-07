@@ -199,6 +199,77 @@ h1{
     height: 3.5%;
 }
 
+.img-postgresql{
+    width: 3.5%;
+    height: 3.5%;
+}
+
+/* Job experience */
+
+.jobs{
+    text-align: center;
+}
+
+.jobs-h1{
+    padding-top: 10%;
+    color: #b18eed;
+}
+
+.job-func{
+    color: yellow;
+}
+
+.experience{
+    padding: 0% 10% 5% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.job-infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.opengenus{
+    width: 30%;
+    height: 70%;
+    border-radius: 10%;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.265);
+}
+
+.job-card{
+    background-color: rgba(198, 198, 198, 0.277);
+    color:rgba(255, 255, 255, 0.837);
+    border-radius: 1%;
+    width: 25rem;
+    height: 25rem;
+
+    border-right: 10px solid rgba(255, 255, 255, 0.492);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    margin-top: 5%;
+
+    text-align: center;
+
+    transform: scale(1);
+    transition: transform 0.3s 0.1s ease-in-out, opacity 300ms ease;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.265);
+}
+
+.job-title{
+    color:rgba(255, 255, 255);
+    text-align: center;
+    padding-bottom: 4%;
+}
 /* Projects*/
 
 .projects{
