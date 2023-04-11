@@ -164,17 +164,12 @@ h1{
     height: 3.5%;
 }
 
+.img-ts{
+    width: 3.5%;
+    height: 3.5%;
+}
+
 .img-node{
-    width: 3.5%;
-    height: 3.5%;
-}
-
-.img-html{
-    width: 3.5%;
-    height: 3.5%;
-}
-
-.img-css{
     width: 3.5%;
     height: 3.5%;
 }
@@ -185,6 +180,11 @@ h1{
 }
 
 .img-react{
+    width: 3.5%;
+    height: 3.5%;
+}
+
+.img-jest{
     width: 3.5%;
     height: 3.5%;
 }
