@@ -107,7 +107,7 @@ h1{
 .block-hw{
     position: absolute;
     background:#b18eed3b;
-    width: 81.55rem;
+    width: 100%;
     height: 25rem;
     z-index: -99;
     margin: 0% 0% 0% 0%;
@@ -372,7 +372,7 @@ h3:hover{
 .footer{
     background-color: rgb(24, 13, 58);
     border-top: 2px solid rgba(255, 255, 255, 0.462);
-    width: 81.55rem;
+    width: 100%;
     height: 2rem;
     color:rgba(255, 255, 255, 0.462);
 
