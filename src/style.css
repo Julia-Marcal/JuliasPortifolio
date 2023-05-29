@@ -41,7 +41,7 @@ h1{
     color: white;
     font-weight: 700;
     font-size: 3.5rem;
-    line-height: 1.5;
+    line-height: 0;
     text-align: center;
     transition: 1000ms all ease-in-out;
 }
@@ -50,7 +50,7 @@ h1{
 .img-galaxy{
     position: relative;
     z-index: -1;
-    margin: -8% 0% 0% 44.5%;
+    margin: -5% 0% 0% 45%;
     width: 10%;
     height: 10%;
 }
