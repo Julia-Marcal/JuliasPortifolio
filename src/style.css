@@ -114,7 +114,53 @@ h1{
 }
 
 
-/*! Fazer essa animação de modo translateZ
+@media (max-width: 480px) {
+.img-galaxy{
+    position: relative;
+    z-index: -1;
+    margin: -13% 0% 0% 35%;
+    width: 30%;
+    height: 30%;
+}
+
+
+.hello-w{
+    padding-block: 50%;
+}
+
+}
+
+@media (max-width: 768px) {
+    .img-galaxy{
+        position: relative;
+        z-index: -1;
+        margin: -15% 0% 0% 35%;
+        width: 30%;
+        height: 30%;
+    }
+
+
+    .hello-w{
+        padding-block: 50%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .img-galaxy {
+        position: relative;
+        z-index: -1;
+        margin: -10% 0% 0% 40%;
+        width: 20%;
+        height: 20%;
+    }
+
+    .hello-w {
+        padding-block: 40%;
+    }
+}
+
+
 
 /* Description */
 
@@ -139,7 +185,7 @@ h1{
 }
 
 .h-description{
-    padding-block-start: 12%;
+    padding-block-start: 12%;  
 
 }
 
@@ -174,7 +220,7 @@ h1{
     height: 3.5%;
 }
 
-.img-bootstrap{
+.img-golang{
     width: 3.5%;
     height: 3.5%;
 }
@@ -215,6 +261,13 @@ h1{
     color: #b18eed;
 }
 
+.job-title{
+    color:rgba(255, 255, 255);
+    text-align: center;
+    padding-left: 4%;
+    padding-bottom: 4%;
+}
+
 .job-func{
     color: yellow;
 }
@@ -236,6 +289,13 @@ h1{
 }
 
 .opengenus{
+    width: 30%;
+    height: 70%;
+    border-radius: 10%;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.265);
+}
+
+.fiverr{
     width: 30%;
     height: 70%;
     border-radius: 10%;
@@ -265,11 +325,7 @@ h1{
     box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.265);
 }
 
-.job-title{
-    color:rgba(255, 255, 255);
-    text-align: center;
-    padding-bottom: 4%;
-}
+
 /* Projects*/
 
 .projects{
