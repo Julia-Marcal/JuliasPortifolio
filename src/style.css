@@ -34,7 +34,7 @@ body{
 
 .navbar-brand:hover{
     cursor: pointer;
-    color: #b18eed;
+    color: rgb(176, 140, 237);
 }
 
 h1{
@@ -185,7 +185,7 @@ h1{
 }
 
 .h-description{
-    padding-block-start: 12%;  
+    padding-block-start: 4%;  
 
 }
 
@@ -221,6 +221,11 @@ h1{
 }
 
 .img-golang{
+    width: 3.5%;
+    height: 3.5%;
+}
+
+.img-angular{
     width: 3.5%;
     height: 3.5%;
 }
