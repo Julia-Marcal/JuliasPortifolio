@@ -334,6 +334,13 @@ h1{
     box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.265);
 }
 
+.job-image:hover{
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: transform 0.3s 0.2s ease-in-out, opacity 300ms ease;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.265);   
+}
 
 /* Projects*/
 
